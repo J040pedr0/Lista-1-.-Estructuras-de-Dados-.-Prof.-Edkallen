@@ -15,7 +15,7 @@
 #include <math.h>
 
 bool eh_automorfico(int n) {
-    long long quadrado = (long long)n * n;  // Evita overflow
+    long long quadrado = (long long)n * n;  
     int digitos = 0;
     int temp = n;
     
