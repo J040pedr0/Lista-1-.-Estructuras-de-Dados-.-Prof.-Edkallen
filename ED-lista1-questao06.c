@@ -33,7 +33,7 @@ bool eh_primo(int n) {
     return true;
 }
 
-// Calcula a^b mod m de forma eficiente (evita overflow)
+
 long long potencia_modular(long long a, long long b, long long m) {
     long long resultado = 1;
     a = a % m;
